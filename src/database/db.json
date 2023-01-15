@@ -1,0 +1,360 @@
+{
+    "recettes": [
+        {
+            "difficulty": 1,
+            "name": "Cookies",
+            "TimeMin": 5,
+            "TimeMax": 10,
+            "TimeCooking": 15,
+            "TimeRepose": 0,
+            "Description": "Super recette de cookies faits maison !\nTrès facile et rapide à faire...\nQuand on a pas trop le temps, mais qu'on veut faire plaisir, c'est la recette parfaite ! ^^",
+            "image": [
+                "cookies.png"
+            ],
+            "Ingredients": [
+                {
+                    "name": "Farine",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "name": "Sucre",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "Beurre",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oeuf",
+                    "quantity": 1,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Chocolat",
+                    "quantity": 100,
+                    "unit": "g"
+                }
+            ],
+            "CookiesNumber": 10,
+            "pas": 5,
+            "Steps": [
+                "Prenez un saladier et y verser, le __sucre__, les __oeufs_, et le __beurre__ ramoli (et non pas fondu ! Sinon, vous créerez des sablés). Utilisez une __marise__ de préference afin de bien mélanger les ingrédients.",
+                "Incorporez petit à petit le mélange de __farine__, __sel__ et __levure__ à notre préparation. Versez le doucement, tout en remuant, ou vous créerez des grumeaux solides... Pas très bon en général...   :/",
+                "Enfin, ajoutez à votre mélange les __pépites de choxolats__ achetées, ou préparées à l'avance. La façon de mélanger ne doit pas être trop brutale, sous peine de trop ramolir la pâte finale. Nous vous conseillons d'ajoutez des pépites sortant du congélateur, elle resterons presque intact lors de la cuisson !",
+                "Préchauffez le four à __180°C__ (__thermostat.6__).\nA vous de mettre la main à la pâte ! En effet, munissez vous de vos doigts (ou utilisez deux __c.__ à __s.__), afin de créer des petites boules de pâte à cookie. Elle devront être de la même taille pour eviter une erreur de cuisson. ",
+                "Enfourner pendant 15 minutes, et laissez refroidir avant de déguster !"
+            ]
+        },
+        {
+            "difficulty": 2,
+            "name": "Gâteau au chocolat",
+            "TimeMin": 20,
+            "TimeMax": 25,
+            "TimeCooking": 30,
+            "TimeRepose": 0,
+            "Description": "Un délicieux gâteau au chocolat moelleux et fondant ! Parfait pour les amateurs de chocolat.",
+            "image": [
+                "gateau_chocolat.jpg"
+            ],
+            "Ingredients": [
+                {
+                    "name": "Farine",
+                    "quantity": 250,
+                    "unit": "g"
+                },
+                {
+                    "name": "Sucre",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "name": "Beurre",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oeufs",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Cacao en poudre",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "Levure chimique",
+                    "quantity": 1,
+                    "unit": "sachet"
+                },
+                {
+                    "name": "Lait",
+                    "quantity": 150,
+                    "unit": "ml"
+                }
+            ],
+            "Steps": [
+                "Préchauffez le four à 180°C (thermostat 6). Beurrez et farinez un moule à gâteau.",
+                "Dans un saladier, mélangez la farine, le sucre, la levure et le cacao en poudre.",
+                "Ajoutez les oeufs un à un en mélangeant bien entre chaque ajout.",
+                "Ajoutez ensuite le beurre fondu et le lait, mélangez jusqu'à obtenir une pâte homogène.",
+                "Versez la pâte dans le moule préparé et enfournez pendant 30 minutes.",
+                "Laissez refroidir avant de démouler et de servir."
+            ]
+        },
+        {
+            "difficulty": 3,
+            "name": "Tarte aux pommes",
+            "TimeMin": 30,
+            "TimeMax": 40,
+            "TimeCooking": 45,
+            "TimeRepose": 20,
+            "Description": "Une délicieuse tarte aux pommes faite maison, parfaite pour le dessert ou le goûter.",
+            "image": [
+                "tarte_pommes.jpg"
+            ],
+            "Ingredients": [
+                {
+                    "name": "Pâte à tarte",
+                    "quantity": 1,
+                    "unit": "pâte"
+                },
+                {
+                    "name": "Pommes",
+                    "quantity": 6,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Sucre",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "Cannelle",
+                    "quantity": 1,
+                    "unit": "c.à café"
+                },
+                {
+                    "name": "Beurre",
+                    "quantity": 50,
+                    "unit": "g"
+                },
+                {
+                    "name": "Fécule de maïs",
+                    "quantity": 1,
+                    "unit": "c.à soupe"
+                }
+            ],
+            "Steps": [
+                "Préchauffez le four à 180°C (thermostat 6). Etalez la pâte à tarte dans un moule à fond amovible.",
+                "Epluchez et coupez les pommes en fines lamelles. Dans un saladier, mélangez les pommes, le sucre, la cannelle et la fécule de maïs.",
+                "Disposez les lamelles de pommes sur la pâte à tarte et parsemez de morceaux de beurre.",
+                "Enfournez pendant 45 minutes. Laissez refroidir avant de déguster accompagné d'une boule de glace à la vanille ou crème fraîche."
+            ]
+        },
+        {
+            "difficulty": 2,
+            "name": "Soupe de légumes",
+            "TimeMin": 20,
+            "TimeMax": 25,
+            "TimeCooking": 30,
+            "TimeRepose": 0,
+            "Description": "Une soupe saine et nourrissante faite avec des légumes frais. Parfait pour un repas léger ou pour se réchauffer lors d'un soir frais.",
+            "image": [
+                "soupe_legumes.jpg"
+            ],
+            "Ingredients": [
+                {
+                    "name": "Oignons",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Carottes",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Céleri",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Pommes de terre",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Courgettes",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Ail",
+                    "quantity": 2,
+                    "unit": "gousses"
+                },
+                {
+                    "name": "Huile d'olive",
+                    "quantity": 2,
+                    "unit": "c.à soupe"
+                },
+                {
+                    "name": "Bouillon de légumes",
+                    "quantity": 1,
+                    "unit": "litre"
+                },
+                {
+                    "name": "Thym",
+                    "quantity": 1,
+                    "unit": "branche"
+                },
+                {
+                    "name": "Sel et poivre",
+                    "quantity": 0,
+                    "unit": "au goût"
+                }
+            ],
+            "Steps": [
+                "Dans une grande casserole, faites chauffer l'huile d'olive à feu moyen. Ajoutez les oignons, l'ail et les légumes coupés en morceaux, et faites-les fondre pendant environ 10 minutes.",
+                "Versez le bouillon de légumes et ajoutez la branche de thym. Portez à ébullition, puis réduisez le feu et laissez mijoter pendant 20 minutes.",
+                "Retirez la branche de thym, puis mixez la soupe jusqu'à ce qu'elle soit bien lisse.",
+                "Assaisonnez avec du sel et du poivre selon votre goût, et servez chaud accompagné de pain grillé."
+            ]
+        },
+        {
+            "difficulty": 3,
+            "name": "Lasagne végétariennes",
+            "TimeMin": 60,
+            "TimeMax": 70,
+            "TimeCooking": 45,
+            "TimeRepose": 15,
+            "Description": "Une version végétarienne de la célèbre lasagne italienne, remplie de légumes frais et de fromage râpé.",
+            "image": [
+                "lasagnes-vegetariennes.jpeg"
+            ],
+            "Ingredients": [
+                {
+                    "name": "Feuilles de lasagne",
+                    "quantity": 12,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Aubergines",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Courgettes",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Champignons",
+                    "quantity": 250,
+                    "unit": "g"
+                },
+                {
+                    "name": "Tomates pelées",
+                    "quantity": 2,
+                    "unit": "boîte"
+                },
+                {
+                    "name": "Oignons",
+                    "quantity": 2,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Ail",
+                    "quantity": 2,
+                    "unit": "gousses"
+                },
+                {
+                    "name": "Huile d'olive",
+                    "quantity": 2,
+                    "unit": "c.à soupe"
+                },
+                {
+                    "name": "Fromage râpé",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "name": "Crème fraîche",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "Basilic",
+                    "quantity": 2,
+                    "unit": "branches"
+                },
+                {
+                    "name": "Sel et poivre",
+                    "quantity": 0,
+                    "unit": "au goût"
+                }
+            ],
+            "Steps": [
+                "Préchauffez le four à 180°C (thermostat 6). Coupez les aubergines, les courgettes et les champignons en petits morceaux.",
+                "Dans une poêle, faites chauffer l'huile d'olive à feu moyen. Ajoutez les oignons, l'ail et les légumes, et faites-les revenir pendant environ 10 minutes.",
+                "Ajoutez les tomates pelées écrasées et le basilic ciselé. Assaisonnez avec du sel et du poivre selon votre goût, et laissez mijoter pendant 20 minutes.",
+                "Dans un plat à gratin, disposez une couche de feuilles de lasagne, puis une couche de la préparation légumes, une couche de fromage râpé, une couche de crème fraîche, et ainsi de suite jusqu'à épuisement des ingrédients. Terminez par une couche de fromage râpé.",
+                "Enfournez pendant 45 minutes, puis laissez reposer pendant 15 minutes avant de servir."
+            ]
+        },
+        {
+            "difficulty": 2,
+            "name": "Tarte aux fraises",
+            "TimeMin": 45,
+            "TimeMax": 55,
+            "TimeCooking": 30,
+            "TimeRepose": 15,
+            "Description": "Une tarte fraîche et fruitée, parfaite pour les journées d'été. La combinaison de la pâte à tarte croustillante et des fraises juteuses est irrésistible.",
+            "image": [
+                "tarte_fraise.jpg"
+            ],
+            "Ingredients": [
+                {
+                    "name": "Pâte à tarte",
+                    "quantity": 1,
+                    "unit": "unit"
+                },
+                {
+                    "name": "Fraises",
+                    "quantity": 500,
+                    "unit": "g"
+                },
+                {
+                    "name": "Sucre en poudre",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "Fécule de maïs",
+                    "quantity": 1,
+                    "unit": "c.à soupe"
+                },
+                {
+                    "name": "Jus de citron",
+                    "quantity": 1,
+                    "unit": "c.à soupe"
+                },
+                {
+                    "name": "Beurre fondu",
+                    "quantity": 50,
+                    "unit": "g"
+                }
+            ],
+            "Steps": [
+                "Préchauffez le four à 180°C (thermostat 6). Etalez la pâte à tarte dans un moule à tarte préalablement beurré.",
+                "Lavez et équeutez les fraises, puis coupez-les en morceaux. Dans un bol, mélangez-les avec le sucre en poudre, la fécule de maïs, et le jus de citron.",
+                "Versez cette préparation sur la pâte à tarte, et parsemez de morceaux de beurre fondu.",
+                "Enfournez pendant 30 minutes, puis laissez refroidir avant de servir. Vous pouvez accompagner cette tarte avec de la crème fraîche ou de la glace à la vanille."
+            ]
+        }
+    ]
+}
