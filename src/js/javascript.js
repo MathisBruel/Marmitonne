@@ -16,7 +16,7 @@ let db = fetch('src/database/db.json')
       let div2 = document.createElement('div');
 
       div.classList.add('swiper-slide');
-      img.src = "src/img/" + recette.image;
+      img.src = "src/img/" + recette.image[0];
       img.alt = recette.name;
       button.innerHTML = "Voir la recette";
       button.id = "button";
@@ -83,33 +83,3 @@ let db = fetch('src/database/db.json')
       }
     });
   });
-
-/* 
-<div class="trend">
-    <h1>
-      Les tendances actuelles
-    </h1>
-    </br>
-    <img src="src/img/decoration.svg" alt="separateur">
-    </br>
-    </br>
-    </br>
-    </br>
-    <!--Create slider-->
-    <section id="slider-2">
-      <div class="container wide">
-        <div class="swiper" id="swiper-2">
-          </br>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <figure>
-                <img src="src/img/spain-1.jpg" alt="Marbella, Spain" />
-                <figcaption>
-                  <img src="src/img/icon-location.svg" alt="Icon location">
-                  Marbella, Spain
-                </figcaption>
-              </figure>
-            </div> <!-- end swiper-slide -->
-
-            */
-

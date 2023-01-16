@@ -37,6 +37,28 @@ let db = fetch('src/database/db.json')
 
 
 
+    let cuisson = document.getElementById('infos-time-cuisson');
+    cuisson.innerHTML = "Temps de cuisson: "+recette.TimeCooking + " min";
+    let niveau = document.getElementById('infos-niveau');
+    let difficulte = ""
+    switch (recette.difficulty) {
+      case 1:
+        difficulte = "Facile ★";
+        break;
+      case 2:
+        difficulte = "Moyen ★★";
+        break;
+      case 3:
+        difficulte = "Difficile ★★★";
+        break;
+      default:
+        difficulte = "Facile ★";
+    }
+    niveau.innerHTML = "Niveau: "+difficulte;
+    let prepa = document.getElementById('infos-time-prepa');
+    prepa.innerHTML = "Temps de préparation: "+recette.TimeMin + " min" + ((recette.TimeMin != 0) ? " - "+recette.TimeMax + " min" : "" )
+
+
 
 
     /*
