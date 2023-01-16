@@ -1,0 +1,106 @@
+.header-name {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 238, 212);
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgb(255, 238, 212), rgba(228, 210, 183, 0.432));
+}
+
+
+.header-name span {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    border-radius: 7px;
+    padding: 0;
+    border-top: 0px;
+
+}
+
+nav {
+    background-color: rgba(255, 238, 212);
+}
+
+body {
+    font-family: var(--primary-ff);
+    color: var(--black-90);
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 58px;
+    line-height: 85px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 67px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 55px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--black-90);
+}
+
+a {
+    color: var(--black);
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+table.ingredients {
+    border-radius: 6px;
+    padding: 4px;
+    text-align: center;
+}
+
+table.ingredients td {
+    border-radius: 6px;
+    border: 1px solid #333;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table.ingredients tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table.ingredients thead,
+table.ingredients tfoot,
+table.ingredients th {
+    --c: #333;
+    border-radius: 6px;
+    background-color: var(--c);
+    color: #fff;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

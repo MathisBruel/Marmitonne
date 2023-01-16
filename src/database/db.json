@@ -1,6 +1,7 @@
 {
     "recettes": [
         {
+            "id": 1,
             "difficulty": 1,
             "name": "Cookies",
             "TimeMin": 5,
@@ -49,6 +50,7 @@
             ]
         },
         {
+            "id": 2,
             "difficulty": 2,
             "name": "Gâteau au chocolat",
             "TimeMin": 20,
@@ -106,6 +108,7 @@
             ]
         },
         {
+            "id": 3,
             "difficulty": 3,
             "name": "Tarte aux pommes",
             "TimeMin": 30,
@@ -156,6 +159,7 @@
             ]
         },
         {
+            "id": 4,
             "difficulty": 2,
             "name": "Soupe de légumes",
             "TimeMin": 20,
@@ -226,6 +230,7 @@
             ]
         },
         {
+            "id": 5,
             "difficulty": 3,
             "name": "Lasagne végétariennes",
             "TimeMin": 60,
@@ -307,6 +312,7 @@
             ]
         },
         {
+            "id": 6,
             "difficulty": 2,
             "name": "Tarte aux fraises",
             "TimeMin": 45,

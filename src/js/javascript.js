@@ -15,12 +15,15 @@ let db = fetch('src/database/db.json')
 
       let div2 = document.createElement('div');
 
-
       div.classList.add('swiper-slide');
       img.src = "src/img/" + recette.image;
       img.alt = recette.name;
       button.innerHTML = "Voir la recette";
       button.id = "button";
+      // set redirection to /recette.html?id=recette.name in button
+      button.onclick = function () {
+        window.location.href = "recette.html?id=" + recette.id;
+      }
       div2.id = "slide"
       let title = document.createElement('h2');
       title.innerHTML = recette.name;
