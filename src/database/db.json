@@ -8,7 +8,7 @@
             "TimeMax": 10,
             "TimeCooking": 15,
             "TimeRepose": 0,
-            "Description": "Super recette de cookies faits maison !\nTrès facile et rapide à faire...\nQuand on a pas trop le temps, mais qu'on veut faire plaisir, c'est la recette parfaite ! ^^",
+            "Description": "Super recette de cookies faits maison !\nTrès facile et rapide à faire...\nQuand on a pas trop le temps, mais qu'on veut faire plaisir, c'est la recette parfaite ! ^^ Il y a 10 cookies par portions",
             "image": [
                 "cookies.png"
             ],
@@ -39,7 +39,6 @@
                     "unit": "g"
                 }
             ],
-            "CookiesNumber": 10,
             "pas": 5,
             "Steps": [
                 "Prenez un saladier et y verser, le __sucre__, les __oeufs_, et le __beurre__ ramoli (et non pas fondu ! Sinon, vous créerez des sablés). Utilisez une __marise__ de préference afin de bien mélanger les ingrédients.",
@@ -98,6 +97,7 @@
                     "unit": "ml"
                 }
             ],
+            "pas": 8,
             "Steps": [
                 "Préchauffez le four à 180°C (thermostat 6). Beurrez et farinez un moule à gâteau.",
                 "Dans un saladier, mélangez la farine, le sucre, la levure et le cacao en poudre.",
@@ -151,6 +151,7 @@
                     "unit": "c.à soupe"
                 }
             ],
+            "pas": 8,
             "Steps": [
                 "Préchauffez le four à 180°C (thermostat 6). Etalez la pâte à tarte dans un moule à fond amovible.",
                 "Epluchez et coupez les pommes en fines lamelles. Dans un saladier, mélangez les pommes, le sucre, la cannelle et la fécule de maïs.",
@@ -222,6 +223,7 @@
                     "unit": "au goût"
                 }
             ],
+            "pas": 2,
             "Steps": [
                 "Dans une grande casserole, faites chauffer l'huile d'olive à feu moyen. Ajoutez les oignons, l'ail et les légumes coupés en morceaux, et faites-les fondre pendant environ 10 minutes.",
                 "Versez le bouillon de légumes et ajoutez la branche de thym. Portez à ébullition, puis réduisez le feu et laissez mijoter pendant 20 minutes.",
@@ -303,6 +305,7 @@
                     "unit": "au goût"
                 }
             ],
+            "pas": 2,
             "Steps": [
                 "Préchauffez le four à 180°C (thermostat 6). Coupez les aubergines, les courgettes et les champignons en petits morceaux.",
                 "Dans une poêle, faites chauffer l'huile d'olive à feu moyen. Ajoutez les oignons, l'ail et les légumes, et faites-les revenir pendant environ 10 minutes.",
@@ -321,7 +324,9 @@
             "TimeRepose": 15,
             "Description": "Une tarte fraîche et fruitée, parfaite pour les journées d'été. La combinaison de la pâte à tarte croustillante et des fraises juteuses est irrésistible.",
             "image": [
-                "tarte_fraise.jpg"
+                "tarte_fraise.jpg",
+                "tarte_fraise2.jpg",
+                "tarte_fraise3.jpg"
             ],
             "Ingredients": [
                 {
@@ -355,6 +360,7 @@
                     "unit": "g"
                 }
             ],
+            "pas": 8,
             "Steps": [
                 "Préchauffez le four à 180°C (thermostat 6). Etalez la pâte à tarte dans un moule à tarte préalablement beurré.",
                 "Lavez et équeutez les fraises, puis coupez-les en morceaux. Dans un bol, mélangez-les avec le sucre en poudre, la fécule de maïs, et le jus de citron.",

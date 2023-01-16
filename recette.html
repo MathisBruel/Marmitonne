@@ -15,6 +15,24 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style-recette.css">
 
+ 
+  <!-- Reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -60,6 +78,12 @@
 
 
     <h1 id="title">Recette</h1>
+    </br>
+    <img src="src/img/decoration.svg" alt="separateur">
+    </br>
+    </br>
+    </br>
+    </br>
 
     <section id="slider-2">
         <div class="container wide">
@@ -105,7 +129,7 @@
     <hr>
     </hr>
 
-    <table class="ingredients">
+    <table class="ingredients" id="table">
         <thead>
             <tr>
                 <th colspan="6">
@@ -113,138 +137,13 @@
                 </th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <th>nb pers.</th>
-
-                <th>$\textbf{${}$4}$</th>
-
-                <th>$\textbf{${}$8}$</th>
-
-                <th>$\textbf{${}$12}$</th>
-
-                <th>$\textbf{${}$16}$</th>
-
-                <th>$\textbf{${}$20}$</th>
-
-
-            </tr>
-
-            <tr>
-                <th>Beurre</th>
-
-                <td><var>$85\text{${}$g}$</var></td>
-
-                <td><var>$170\text{${}$g}$</var></td>
-
-                <td><var>$255\text{${}$g}$</var></td>
-
-                <td><var>$340\text{${}$g}$</var></td>
-
-                <td><var>$425\text{${}$g}$</var></td>
-
-
-            </tr>
-
-            <tr>
-                <th>Sucre</th>
-
-                <td><var>$85\text{${}$g}$</var></td>
-
-                <td><var>$170\text{${}$g}$</var></td>
-
-                <td><var>$255\text{${}$g}$</var></td>
-
-                <td><var>$340\text{${}$g}$</var></td>
-
-                <td><var>$425\text{${}$g}$</var></td>
-
-
-            </tr>
-
-            <tr>
-                <th>Farine</th>
-
-                <td><var>$150\text{${}$g}$</var></td>
-
-                <td><var>$300\text{${}$g}$</var></td>
-
-                <td><var>$450\text{${}$g}$</var></td>
-
-                <td><var>$600\text{${}$g}$</var></td>
-
-                <td><var>$750\text{${}$g}$</var></td>
-
-
-            </tr>
-
-            <tr>
-                <th>Oeufs</th>
-
-                <td><var>$1\text{${}$}$</var></td>
-
-                <td><var>$2\text{${}$}$</var></td>
-
-                <td><var>$3\text{${}$}$</var></td>
-
-                <td><var>$4\text{${}$}$</var></td>
-
-                <td><var>$5\text{${}$}$</var></td>
-
-
-            </tr>
-
-            <tr>
-                <th>Chocolat</th>
-
-                <td><var>$100\text{${}$g}$</var></td>
-
-                <td><var>$200\text{${}$g}$</var></td>
-
-                <td><var>$300\text{${}$g}$</var></td>
-
-                <td><var>$400\text{${}$g}$</var></td>
-
-                <td><var>$500\text{${}$g}$</var></td>
-
-
-            </tr>
-
-            <tr>
-                <th>Sel</th>
-
-                <td><var>$1\text{${}$c.à.c}$</var></td>
-
-                <td><var>$2\text{${}$c.à.c}$</var></td>
-
-                <td><var>$3\text{${}$c.à.c}$</var></td>
-
-                <td><var>$4\text{${}$c.à.c}$</var></td>
-
-                <td><var>$5\text{${}$c.à.c}$</var></td>
-
-
-            </tr>
-
-            <tr>
-                <th>Levure</th>
-
-                <td><var>$1\text{${}$c.à.c}$</var></td>
-
-                <td><var>$2\text{${}$c.à.c}$</var></td>
-
-                <td><var>$3\text{${}$c.à.c}$</var></td>
-
-                <td><var>$4\text{${}$c.à.c}$</var></td>
-
-                <td><var>$5\text{${}$c.à.c}$</var></td>
-
-
-            </tr>
+        <tbody id="tbody">
 
         </tbody>
     </table>
 
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src='src/js/javascript-recette.js' async></script>
 
 </body>
