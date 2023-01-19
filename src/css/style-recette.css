@@ -445,24 +445,35 @@ footer p {
 
 
 .infos {
-    display: flex;
     text-align: center;
-    margin: auto;
-    justify-content: space-between;
     /*change text size*/
     font-size: 1.5rem;
 }
 
-.infos-time-cuisson::before  {
-    content: '•';
-    margin-right: 50px;
-    
-}
+
 .infos-niveau:before  {
     content: '•';
     margin-right: 50px;
 }
-.infos-time-prepa:before  {
+.infos-niveau::after  {
     content: '•';
     margin-right: 50px;
 }
+
+
+.description {
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: right;
+    margin: auto;
+}
+
+.time {
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+

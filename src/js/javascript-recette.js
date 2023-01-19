@@ -76,9 +76,12 @@ let db = fetch('src/database/db.json')
     for (let i = 0; i < 5; i++) {
       let td = document.createElement('td');
       td.innerHTML = recette.pas * (i + 1);
+      td.style.borderRadius = "6px";
       tr.appendChild(td);
       table.appendChild(tr);
     }
+    // set style for the first td
+    
 
     recette.Ingredients.forEach((ingredient) => {
       let tr = document.createElement('tr');
