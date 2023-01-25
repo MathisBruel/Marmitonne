@@ -406,3 +406,105 @@ footer p {
         display: none;
     }
 }
+
+
+hr {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+
+hr.vertical {
+
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    height: 10em;
+    width: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+div.recommandation-container{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 90%;
+    height: 90%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+div.recommandation-container img{
+    border-radius: 12px;
+
+}
+
+div.recommandation-text {
+    width: 900px;
+    display: inline-flex;
+	position: relative;
+    color: #000000;
+    font-family: arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.recommandation-text-left p {
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+div.recommandation-text-right p {
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+div.recommandation-text button{
+    position: absolute;
+    margin-top: 70%;
+    margin-bottom: 20px;
+
+}
+
+
+div.recommandation-text h2{
+    position: absolute;
+    margin-bottom: 60%;
+    
+
+}

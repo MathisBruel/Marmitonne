@@ -18,9 +18,9 @@ let db = fetch('src/database/db.json')
       let div = document.createElement('div');
       let div2 = document.createElement('div');
       div.classList.add('swiper-slide');
-  
-  
-  
+
+
+
       let img = document.createElement('img');
       img.src = "src/img/" + image;
       img.alt = name;
@@ -28,8 +28,8 @@ let db = fetch('src/database/db.json')
       div2.appendChild(img);
       div2.appendChild(document.createElement("br"));
       div2.appendChild(document.createElement("br"));
-  
-  
+
+
       swiper.appendChild(div);
       div.appendChild(figure);
       figure.appendChild(div2);
@@ -51,11 +51,46 @@ let db = fetch('src/database/db.json')
         difficulte = "Facile ★";
     }
     let cuisson = document.getElementById('infos-time-cuisson');
-    cuisson.innerHTML = "Temps de cuisson: "+recette.TimeCooking + " min";
+    cuisson.innerHTML = "Temps de cuisson: " + recette.TimeCooking + " min&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp•&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
     let niveau = document.getElementById('infos-niveau');
-    niveau.innerHTML = "Niveau: "+difficulte;
+    niveau.innerHTML = "Niveau: " + difficulte + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp•&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
     let prepa = document.getElementById('infos-time-prepa');
-    prepa.innerHTML = "Temps de préparation: "+recette.TimeMin + " min" + ((recette.TimeMin != 0) ? " - "+recette.TimeMax + " min" : "" )
+    prepa.innerHTML = "Temps de préparation: " + recette.TimeMin + " min" + ((recette.TimeMin != 0) ? " - " + recette.TimeMax + " min" : "")
+
+
+
+    // set steps of recette in list
+    let steps = document.getElementById('steps');
+    steps.className = "list";
+    let x = 1
+    recette.Steps.forEach((step) => {
+      let li = document.createElement('li');
+      li.className = "item"
+      let h2 = document.createElement('h2');
+      let span = document.createElement('span');
+      h2.innerHTML = "Étape " + x;
+      span.innerHTML = step;
+      li.appendChild(h2);
+      li.appendChild(span);
+      x++;
+      steps.appendChild(li);
+    })
+
+    let description = document.getElementById('description');
+    description.innerHTML = recette.Description + "<br/><br/><br/>" ;
+    let time = document.getElementById('time');
+    // Total time \n temps de prepa \n temps de repos (si il y a) \n temps de cuisson
+    let totalTime = recette.TimeCooking + recette.TimeMax
+    // if totalTime > 60 min then convert in hour
+    if (totalTime > 60) {
+      let hour = Math.floor(totalTime / 60);
+      let min = totalTime % 60;
+      totalTime = hour + "h" + min;
+    }
+
+    time.innerHTML = "• Temps total: &nbsp&nbsp" + totalTime + "min<br/>• &nbsp&nbspTemps de préparation: " + recette.TimeMin + "min<br/>• &nbsp&nbspTemps de cuisson: " + recette.TimeCooking + "min" + ((recette.TimeRepose != 0) ? "<br/>• &nbsp&nbspTemps de repos: " + recette.TimeRepose + "min" : "");
+
+
 
 
 
@@ -76,12 +111,11 @@ let db = fetch('src/database/db.json')
     for (let i = 0; i < 5; i++) {
       let td = document.createElement('td');
       td.innerHTML = recette.pas * (i + 1);
-      td.style.borderRadius = "6px";
       tr.appendChild(td);
       table.appendChild(tr);
     }
     // set style for the first td
-    
+
 
     recette.Ingredients.forEach((ingredient) => {
       let tr = document.createElement('tr');
@@ -130,7 +164,7 @@ let db = fetch('src/database/db.json')
           slidesPerView: 1.5
         },
         1400: {
-          slidesPerView: 1
+          slidesPerView: 3
         }
       }
     });

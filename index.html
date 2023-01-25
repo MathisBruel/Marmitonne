@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="src/css/style.css">
 
 
- 
+
   <!-- Reset -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
@@ -38,7 +38,7 @@
 
 <body>
 
-  
+
   <div class="header">
     <div class="header-name">
       <h1><span>Marmitonne</span></h1>
@@ -64,6 +64,7 @@
               <input class="form-control me-2" type="search" placeholder="Votre recherche" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Recherche</button>
             </form>
+
           </div>
         </div>
       </nav>
@@ -73,7 +74,7 @@
 
 
 
-  <div class="trend">
+  <div class="trend" id="trend">
     <h1>
       Les tendances actuelles
     </h1>
@@ -130,15 +131,22 @@
           <img src="src/img/cookies.png" alt="">
         </div>
         <div class="recommandation-text">
-          <h2>Titre</h2>
+          <h2>Cookies</h2> 
           <div class="recommandation-text-left">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+            <p>Super recette de cookies faits maison !<br />Très facile et rapide à faire...<br />Quand on a pas trop le
+              temps, mais qu'on veut faire plaisir, c'est la recette parfaite ! ^^ Il y a 10 cookies par portions</p>
+          </div>
+
+          <div class="hr-vertical" id="hr-vertical">
+            <hr class="vertical">
+            </hr>
           </div>
           <div class="recommandation-text-right">
-            <p>Temps de preparation: X</p>
-            <p>Temps de cuisson: X</p>
-            <p>Nombre: X</p>
+            <p>Temps de preparation: 5-10min</p>
+            <p>Temps de cuisson: 15min</p>
+            <p>Nombre: 10 Portions</p>
           </div>
+          <button type="recipe-rec" name="recipe-rec" id="recipe-rec">Voir la recette</button>
         </div>
       </div>
       <div class="gallery">

@@ -3,6 +3,12 @@ let swiper = document.getElementById('swiper-div');
 // get the json file db.json in src/database and put in variable
 console.log(swiper)
 
+
+let reciperec = document.getElementById('recipe-rec');
+reciperec.addEventListener('click', function () {
+  window.location.href = "recette.html?id=" + 1;
+})
+
 let db = fetch('src/database/db.json')
   .then((response) => response.json())
   .then((json) => {
@@ -36,8 +42,8 @@ let db = fetch('src/database/db.json')
       div2.appendChild(button);
       div2.appendChild(document.createElement("br"));
       div2.appendChild(document.createElement("br"));
-      
-      
+
+
       //figure.appendChild(figcaption);
       swiper.appendChild(div);
       div.appendChild(figure);
@@ -83,3 +89,12 @@ let db = fetch('src/database/db.json')
       }
     });
   });
+
+
+
+
+
+
+
+// search bar
+// TODO: add search bar
