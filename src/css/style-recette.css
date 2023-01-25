@@ -357,21 +357,22 @@ footer p {
     margin-right: 50px;
 }
 
-.desc-time div{
+.desc-time div {
     width: 300px;
     display: inline-block;
-	position: relative;
+    position: relative;
     color: #000000;
     font-family: arial, sans-serif;
     margin: 0 auto;
 }
 
-.desc-time div.description{
+.desc-time div.description {
     font-size: 1.5rem;
     width: 40%;
 
 }
-.desc-time div.time{
+
+.desc-time div.time {
     font-size: 1.5rem;
     width: 40%;
 
@@ -499,4 +500,5 @@ nav ul {
     font: normal 2rem var(--font-head);
     text-align: center;
 }
+
 
